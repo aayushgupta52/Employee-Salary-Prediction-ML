@@ -114,35 +114,7 @@ model.fit(X_train, y_train)
 y_pred = model.predict(X_test)
 print("R2 Score:", r2_score(y_test, y_pred))
 
-
----
-
-💻 How to Run
-
-1. Clone the Repository
-
-git clone https://github.com/yourusername/employee-salary-prediction.git
-cd employee-salary-prediction
-
-
-2. Install Dependencies
-
-pip install -r requirements.txt
-
-
-3. Run the Notebook
-
-jupyter notebook notebooks/salary_prediction.ipynb
-
-
-4. (Optional) Run the Streamlit App
-
-streamlit run app/app.py
-
-
-📦 Requirements
-
-Example requirements.txt:
+ Example requirements.txt:
 
 pandas
 numpy
